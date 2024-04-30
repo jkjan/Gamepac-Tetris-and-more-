@@ -4,10 +4,13 @@
  /*
  stdlib.h 헤더는 랜덤한 값을 나타내기 위해 사용
  time.h 헤더는 time 함수를 사용하기 위해 사용 */
+
 void baseball();
 void mainmenu();
 
 void gamefinish() {
+	// TEST
+	//
 	printf("More games?\n\nYes : Y\nNo : N\n");
 		char g;
 		while(1) {
